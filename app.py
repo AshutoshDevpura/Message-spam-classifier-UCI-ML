@@ -42,6 +42,41 @@ model = pickle.load(open('artifacts/model.pkl','rb'))
 
 st.title("Email/SMS Spam Classifier")
 
+#st.image("spam.png", width=300)
+
+st.markdown(
+"""
+<style>
+body {
+    background-color: #F5F5F5;
+}
+header {
+    color: #483D8B;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #483D8B;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.spam {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}
+.not-spam {
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 input_sms = st.text_area("Enter the message")
 
 if st.button('Predict'):
