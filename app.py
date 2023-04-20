@@ -10,6 +10,7 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 
+nltk.download('punkt')
 ps = PorterStemmer()
 
 
@@ -42,7 +43,6 @@ model = pickle.load(open('artifacts/model.pkl','rb'))
 
 st.title("Email/SMS Spam Classifier")
 
-#st.image("spam.png", width=300)
 
 st.markdown(
 """
