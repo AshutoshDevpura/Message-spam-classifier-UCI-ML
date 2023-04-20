@@ -94,3 +94,15 @@ if st.button('Predict'):
     else:
         st.header("Not Spam")
 
+
+# Add footer text
+st.write('\n')
+st.write('\n')
+st.write('\n')
+st.write('\n')
+st.write('\n')
+st.write('\n')
+
+
+
+st.write("Made with :heart: by Ashutosh Devpura")
