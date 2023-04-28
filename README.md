@@ -14,6 +14,7 @@ This project involves building a spam classifier using the Naive Bayes algorithm
 - Data Cleaning and EDA
 - Data Preprocessing
 - Model Building
+- Output
 - Conclusion
 
 ## Technologies Used
@@ -41,6 +42,18 @@ I also created a word cloud to visualize the most common words in spam and ham m
 ## Model Building
 Finally, I built a Naive Bayes classifier using the CountVectorizer and TfidfVectorizer to convert text into numerical features. I split the dataset into training and testing sets and evaluated the performance of the model using accuracy, confusion matrix, and precision.
 I used three types of Naive Bayes models: GaussianNB, MultinomialNB, and BernoulliNB. I found that MultinomialNB provided the highest accuracy and precision.
+
+## Output
+- ### SPAM 
+<img width="1512" alt="Screenshot 2023-04-28 at 3 13 48 PM" src="https://user-images.githubusercontent.com/46817661/235234053-51f18380-a3e7-433b-a44c-45a270cb3f79.png">
+
+<img width="1510" alt="Screenshot 2023-04-28 at 3 14 11 PM" src="https://user-images.githubusercontent.com/46817661/235234082-f27db14d-e652-4e5d-a6ee-bfd4c59e9041.png">
+
+- ### NOT A SPAM
+<img width="1510" alt="Screenshot 2023-04-28 at 3 14 38 PM" src="https://user-images.githubusercontent.com/46817661/235234116-7b95480f-f4c7-4d4a-b57d-6e2c1d3ebb01.png">
+
+<img width="1512" alt="Screenshot 2023-04-28 at 3 15 04 PM" src="https://user-images.githubusercontent.com/46817661/235234144-78953951-2e86-435e-b029-7dfb29513da7.png">
+
 
 ## Conclusion
 I were able to build a Naive Bayes classifier that can accurately predict whether an SMS message is spam or ham with an accuracy of approximately 98%. The model can be further improved by using more advanced natural language processing techniques and trying out other classification algorithms.
