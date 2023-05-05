@@ -1,5 +1,5 @@
 ## NOTICE 
-- Visit the website https://ashutoshdevpura-message-spam-classifier-uci-ml-app-ltp3nl.streamlit.app/
+- Visit the website: https://ashutoshdevpura-message-spam-classifier-uci-ml-app-ltp3nl.streamlit.app/
 - Enter the message you want to classify as spam or not.
 - Click on the "Check for Spam" button button to get the result.
 - You can also use the examples from the "Messages.txt" file by copying and pasting them into the message input field.
@@ -56,4 +56,4 @@ I used three types of Naive Bayes models: GaussianNB, MultinomialNB, and Bernoul
 
 
 ## Conclusion
-I were able to build a Naive Bayes classifier that can accurately predict whether an SMS message is spam or ham with an accuracy of approximately 98%. The model can be further improved by using more advanced natural language processing techniques and trying out other classification algorithms.
+I was able to build a Naive Bayes classifier that can accurately predict whether an SMS message is spam or ham with an accuracy of approximately 98%. The model can be further improved by using more advanced natural language processing techniques and trying out other classification algorithms.
