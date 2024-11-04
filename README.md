@@ -1,5 +1,4 @@
 ## NOTICE 
-- Visit the website: https://ashutoshdevpura-message-spam-classifier-uci-ml-app-ltp3nl.streamlit.app/
 - Enter the message you want to classify as spam or not.
 - Click on the "Check for Spam" button button to get the result.
 - You can also use the examples from the "Messages.txt" file by copying and pasting them into the message input field.
